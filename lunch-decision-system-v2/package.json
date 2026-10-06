@@ -1,0 +1,21 @@
+{
+  "name": "lunch-decision-system-v2",
+  "version": "7.4.0",
+  "description": "전국·일본 확장형 개인화 자동결정 시스템 - V7.4 안정화",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "mysql2": "^3.14.4"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
